@@ -19,7 +19,7 @@ public partial class EditarProduto : ContentPage
             {
                 Id = produto_anexado.Id,
                 Descricao = txt_descricao.Text,
-                Quantidade = Convert.ToDouble(txt_quantidade.Text),
+                Qnt = Convert.ToDouble(txt_qnt.Text),
                 Preco = Convert.ToDouble(txt_preco.Text)
             };
 
